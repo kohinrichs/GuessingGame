@@ -2,7 +2,6 @@
 
 Main();
 
-
 void Main()
 {
     Console.WriteLine("Welcome to the Guessing Game!");
@@ -61,7 +60,8 @@ void Main()
     // an int. If the TryParse can change the entry to an int, it'll continue along that if statement. If the entery can't be changed
     // into an int, it'll display the else portion and prompt the user for a proper entery. With a valid entery, the user will
     // loop through the additional if/else statements depending on the number of guesses they have left. If the user guesses correctly,
-    // It'll display a sucess message and exit from the program.
+    // It'll display a sucess message and exit from the program. (Could rewrite this into 1 function with
+    // an if/else.)
 
     void OtherLevels()
     {
